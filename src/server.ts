@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 
 
-sequelize.sync()
+sequelize.sync({force:true})
 .catch(err => console.log(err))
 
 const app = express();
@@ -28,6 +28,7 @@ app.use(urlencoded({extended: true}));
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
 })
+
 app.use(userRoutes)
 
 setInterval(()=>{

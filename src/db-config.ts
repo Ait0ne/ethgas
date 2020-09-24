@@ -6,12 +6,12 @@ if (process.env.NODE_ENV !== 'production') {
 const USER = <string>process.env.DB_USER
 const PASSWORD = <string>process.env.DB_PASSWORD
 const DB = <string>process.env.DB_NAME
+const HOST = <string>process.env.DB_HOST
 
-console.log()
 
 
 export const config = {
-    HOST: "localhost",
+    HOST: HOST,
     USER: USER,
     PASSWORD: PASSWORD,
     DB: DB,
