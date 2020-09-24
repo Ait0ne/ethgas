@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders correctly 1`] = `
+<styled.div>
+  <h1>
+    Get notified each time ETH Gas price drops below certain threshold
+  </h1>
+  <NotificationForm
+    toggleAlert={[Function]}
+  />
+  <span
+    onClick={[Function]}
+  >
+    Want to cancel subscription?
+  </span>
+</styled.div>
+`;

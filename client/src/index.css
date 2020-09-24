@@ -1,0 +1,17 @@
+body, html, #root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+*:focus {
+    outline: none
+}
+
+* {
+    box-sizing: border-box;
+}

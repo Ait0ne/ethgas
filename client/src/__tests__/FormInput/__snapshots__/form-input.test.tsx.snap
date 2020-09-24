@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formInput renders correctly 1`] = `
+<styled.div>
+  <input
+    onChange={[MockFunction]}
+  />
+  <label
+    className=""
+  >
+    email
+  </label>
+</styled.div>
+`;

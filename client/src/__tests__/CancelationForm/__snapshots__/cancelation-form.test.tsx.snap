@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cancelation form renders correctly 1`] = `
+<CancelationForm
+  toggleAlert={[MockFunction]}
+>
+  <styled.form
+    onSubmit={[Function]}
+  >
+    <form
+      className="sc-bdnylx jIfGih"
+      onSubmit={[Function]}
+    >
+      <FormInput
+        handleChange={[Function]}
+        label="Email"
+        name="email"
+        type="email"
+        value=""
+      >
+        <styled.div>
+          <div
+            className="sc-hKFyIo bUmzJB"
+          >
+            <input
+              name="email"
+              onChange={[Function]}
+              type="email"
+              value=""
+            />
+            <label
+              className=""
+            >
+              Email
+            </label>
+          </div>
+        </styled.div>
+      </FormInput>
+      <Styled(WithStyles(ForwardRef(Button)))
+        type="submit"
+        variant="contained"
+      >
+        <WithStyles(ForwardRef(Button))
+          className="sc-dlnjPT juMlrI"
+          type="submit"
+          variant="contained"
+        >
+          <ForwardRef(Button)
+            className="sc-dlnjPT juMlrI"
+            classes={
+              Object {
+                "colorInherit": "MuiButton-colorInherit",
+                "contained": "MuiButton-contained",
+                "containedPrimary": "MuiButton-containedPrimary",
+                "containedSecondary": "MuiButton-containedSecondary",
+                "containedSizeLarge": "MuiButton-containedSizeLarge",
+                "containedSizeSmall": "MuiButton-containedSizeSmall",
+                "disableElevation": "MuiButton-disableElevation",
+                "disabled": "Mui-disabled",
+                "endIcon": "MuiButton-endIcon",
+                "focusVisible": "Mui-focusVisible",
+                "fullWidth": "MuiButton-fullWidth",
+                "iconSizeLarge": "MuiButton-iconSizeLarge",
+                "iconSizeMedium": "MuiButton-iconSizeMedium",
+                "iconSizeSmall": "MuiButton-iconSizeSmall",
+                "label": "MuiButton-label",
+                "outlined": "MuiButton-outlined",
+                "outlinedPrimary": "MuiButton-outlinedPrimary",
+                "outlinedSecondary": "MuiButton-outlinedSecondary",
+                "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                "root": "MuiButton-root",
+                "sizeLarge": "MuiButton-sizeLarge",
+                "sizeSmall": "MuiButton-sizeSmall",
+                "startIcon": "MuiButton-startIcon",
+                "text": "MuiButton-text",
+                "textPrimary": "MuiButton-textPrimary",
+                "textSecondary": "MuiButton-textSecondary",
+                "textSizeLarge": "MuiButton-textSizeLarge",
+                "textSizeSmall": "MuiButton-textSizeSmall",
+              }
+            }
+            type="submit"
+            variant="contained"
+          >
+            <WithStyles(ForwardRef(ButtonBase))
+              className="MuiButton-root MuiButton-contained sc-dlnjPT juMlrI"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="Mui-focusVisible"
+              type="submit"
+            >
+              <ForwardRef(ButtonBase)
+                className="MuiButton-root MuiButton-contained sc-dlnjPT juMlrI"
+                classes={
+                  Object {
+                    "disabled": "Mui-disabled",
+                    "focusVisible": "Mui-focusVisible",
+                    "root": "MuiButtonBase-root",
+                  }
+                }
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+                type="submit"
+              >
+                <button
+                  className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-dlnjPT juMlrI"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="submit"
+                >
+                  <span
+                    className="MuiButton-label"
+                  >
+                    Unsubscribe
+                  </span>
+                  <WithStyles(memo)
+                    center={false}
+                  >
+                    <ForwardRef(TouchRipple)
+                      center={false}
+                      classes={
+                        Object {
+                          "child": "MuiTouchRipple-child",
+                          "childLeaving": "MuiTouchRipple-childLeaving",
+                          "childPulsate": "MuiTouchRipple-childPulsate",
+                          "ripple": "MuiTouchRipple-ripple",
+                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                          "root": "MuiTouchRipple-root",
+                        }
+                      }
+                    >
+                      <span
+                        className="MuiTouchRipple-root"
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          component={null}
+                          exit={true}
+                        />
+                      </span>
+                    </ForwardRef(TouchRipple)>
+                  </WithStyles(memo)>
+                </button>
+              </ForwardRef(ButtonBase)>
+            </WithStyles(ForwardRef(ButtonBase))>
+          </ForwardRef(Button)>
+        </WithStyles(ForwardRef(Button))>
+      </Styled(WithStyles(ForwardRef(Button)))>
+    </form>
+  </styled.form>
+</CancelationForm>
+`;
