@@ -10,7 +10,7 @@
     "prestart": "npm run build",
     "build": "tsc",
     "start": "node dist/server.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "postinstall": "npm run build && cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "author": "",
   "license": "ISC",
