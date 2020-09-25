@@ -46,8 +46,8 @@ const getETHGasPricesInUSD = () => {
             return current_usd_prices
         })
     })
-    .catch(()=> {
-        return current_usd_prices
+    .catch((err)=> {
+        return Promise.reject(err)
     })
 }
 

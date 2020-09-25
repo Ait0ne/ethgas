@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Select, Button} from '@material-ui/core';
 
 
-export const FormContainer  = styled.form`
+export const FormContainer = styled.form`
 margin-top: 50px;
 display: flex;
 flex-direction: column;
