@@ -42,10 +42,10 @@ const getETHGasPricesInUSD = () => {
     .then(prices => {
         return getCurrentEthPrice()
         .then((ethPrice)=> {
-            current_usd_prices.fast=(prices.fast*ethPrice)/(10**9)
-            current_usd_prices.fastest=(prices.fastest*ethPrice)/(10**9)
-            current_usd_prices.average=(prices.average*ethPrice)/(10**9)
-            current_usd_prices.safeLow=(prices.safeLow*ethPrice)/(10**9)
+            current_usd_prices.fast=(Math.round(prices.fast*ethPrice))/(10**9)
+            current_usd_prices.fastest=(Math.round(prices.fastest*ethPrice))/(10**9)
+            current_usd_prices.average=(Math.round(prices.average*ethPrice))/(10**9)
+            current_usd_prices.safeLow=(Math.round(prices.safeLow*ethPrice))/(10**9)
             return current_usd_prices
         })
     })
