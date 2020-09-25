@@ -17,6 +17,7 @@ const current_usd_prices:IPrices = {
 const getCurrentGasPrice = () => {
     return fetch(`https://data-api.defipulse.com/api/v1/egs/api/ethgasAPI.json?api-key=${ETH_API_KEY}`)
     .then(response => {
+        console.log(response)
         return response.json()
     })
     .then((prices:IPrices)=> {
