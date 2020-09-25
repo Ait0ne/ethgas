@@ -55,7 +55,7 @@ export const postUpdateOrCreate = (req: Request, res: Response) => {
 export const postDelete = (req:Request, res: Response) => {
     const {email} = req.body
     if (!email) {
-        res.status(400).send
+        res.status(400).send()
     } else {
         User.destroy({
             where: {
